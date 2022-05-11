@@ -1,12 +1,12 @@
 # Sudoku-Validator
 I have solved the Sudoku Validator problem by checking these condition using Javascript:
-#Creating a variable "N" that tells the size of the board,
+1.Creating a variable "N" that tells the size of the board,
 * var N = 9; *
-#I created a function called isinRange() that checks if any of the values in the board are less than or equal to zero or greater than 9, return false,
+2.I created a function called isinRange() that checks if any of the values in the board are less than or equal to zero or greater than 9, return false,
 otherwise return true. 
 The function isinRange() is returning a boolean value.
 ![10](https://user-images.githubusercontent.com/44977687/167908880-f2c3cadf-dde4-40e8-a8d1-653765c0f87a.PNG)
-#I created another function called isValidSudoku() that checks if the board is in range.
+3.I created another function called isValidSudoku() that checks if the board is in range.
 ![11](https://user-images.githubusercontent.com/44977687/167909412-bd45a626-ccc5-4cf0-ba75-da37fc53e594.PNG)
 4.I have created an array of size "N+1" and filling it with the false.
 ![12](https://user-images.githubusercontent.com/44977687/167910185-8dda2f93-0e12-4369-b3d0-f210f95db790.PNG)
